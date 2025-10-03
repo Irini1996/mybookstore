@@ -1,0 +1,17 @@
+# Virtual environment
+.venv/
+env/
+
+# Python cache / compiled files
+__pycache__/
+*.pyc
+
+# Local DB
+db.sqlite3
+
+# VSCode settings
+.vscode/
+
+# Mac / Windows trash
+.DS_Store
+Thumbs.db

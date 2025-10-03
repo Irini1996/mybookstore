@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Book #φέρνουμε το μοντέλο Book που ορίζει τα πεδία του βιβλίου (title, author, price, ...). Το “.” σημαίνει “από το ίδιο app (store)”
+from .models import Book 
 
 class BookAdmin(admin.ModelAdmin): #Create a custom configuration class for how the Book model will behave in the admin.
 #It inherits from admin.ModelAdmin, which is the base class with lots of options.
